@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 
 RUN apt-get -y update && \
     apt-get install -y curl git-core mingw-w64 xz-utils build-essential gcc-multilib wget unzip
